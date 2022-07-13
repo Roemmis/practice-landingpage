@@ -13,6 +13,12 @@ position: relative;
 
 }
 
+.navBarTop{
+    display: flex;
+    background-color: rgb(219, 131, 48);
+    height: 5vh;
+}
+
 .logoElement{
     display: flex;
     font-size: 38;
@@ -33,9 +39,12 @@ background-color: grey;
     height: 400px;
     align-items: center;
     justify-content: center;
+    gap: 8px;
 }
 
 .imgRef{
+    border: 4px solid rgb(219, 131, 48);
+    border-radius: 25px;
 
 }
 
@@ -43,18 +52,38 @@ background-color: grey;
     display: flex;
     flex-direction: column;
     transform: scaleX(-1);
+    gap: 8px;
 
 }
 .imgRow2{
     display: flex;
     flex-direction: column;
+    gap: 8px;
 
 }
 
 .quoteCont{
-    background-color: lightslategrey;
+    display: flex;
+    height: fit-content;
+    background-color: rgb(219, 131, 48);
+    align-items: center;
+    justify-content: center;
 }
 
+.quoteHolder{
+    color: white;
+    font-style: italic;
+    width: 7vw;
+
+}
+
+.quoteImg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 50%;
+    overflow: hidden;
+}
 
 .footerCont{
 display: flex;
