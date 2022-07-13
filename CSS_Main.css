@@ -13,11 +13,6 @@ position: relative;
 
 }
 
-.navBarTop{
-    display: flex;
-    background-color: rgb(219, 131, 48);
-    height: 5vh;
-}
 
 .logoElement{
     display: flex;
@@ -27,6 +22,7 @@ position: relative;
     align-items: center;
     margin-left: 5%;
 }
+
 
 .bodyCont{
 display: flex;
@@ -103,3 +99,25 @@ justify-content: center;
     font-weight: bold;
     font-style: italic;
 }
+
+.navbar {
+    width: 100%;
+    background-color: rgb(219, 131, 48);
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: orange;
+  }
