@@ -7,16 +7,52 @@ display: flex;
 background-color: orange;
 height: 20vh;
 width: 100%;
-top: 0;
-position: absolute;
-left: 0;
+position: relative;
 
+
+
+}
+
+.logoElement{
+    display: flex;
+    font-size: 38;
+    font-family: Arial;
+    color: white;
+    align-items: center;
+    margin-left: 5%;
 }
 
 .bodyCont{
 display: flex;
 background-color: grey;
 
+}
+
+.imgCont{
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgRef{
+
+}
+
+.imgRow1{
+    display: flex;
+    flex-direction: column;
+    transform: scaleX(-1);
+
+}
+.imgRow2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.quoteCont{
+    background-color: lightslategrey;
 }
 
 
