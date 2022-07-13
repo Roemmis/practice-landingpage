@@ -1,0 +1,16 @@
+.headerCont{
+display: flex;
+background-color: orange;
+}
+
+.bodyCont{
+display: flex;
+background-color: grey;
+
+}
+
+.footerCont{
+display: flex;
+background-color: orange;
+
+}
