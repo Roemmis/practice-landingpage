@@ -88,6 +88,18 @@ background-color: grey;
 
 }
 
+.contentBox{
+    width: 300px;
+    height: 350px;
+
+    background-color: rgb(219, 131, 48);
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 25px;
+
+
+}
+
 
 .quoteCont{
     display: flex;
