@@ -21,13 +21,43 @@ position: relative;
     color: white;
     align-items: center;
     margin-left: 5%;
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
+
+.navbar {
+    width: 100%;
+    background-color: rgb(219, 131, 48);
+    overflow: auto;
+    border-bottom: 2px solid black;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: orange;
+  }
 
 
 .bodyCont{
 display: flex;
 background-color: grey;
 
+}
+
+.twiddlerBox{
 }
 
 .imgCont{
@@ -58,13 +88,17 @@ background-color: grey;
 
 }
 
+
 .quoteCont{
     display: flex;
     height: fit-content;
+    width: 100%;
     background-color: rgb(219, 131, 48);
     align-items: center;
     justify-content: center;
     gap: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .quoteHolder{
@@ -93,6 +127,7 @@ width: 100%;
 
 align-items: center;
 justify-content: center;
+border-top: 2px solid black;
 
 }
 
@@ -100,25 +135,3 @@ justify-content: center;
     font-weight: bold;
     font-style: italic;
 }
-
-.navbar {
-    width: 100%;
-    background-color: rgb(219, 131, 48);
-    overflow: auto;
-  }
-  
-  .navbar a {
-    float: left;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  .navbar a:hover {
-    background-color: #000;
-  }
-  
-  .active {
-    background-color: orange;
-  }
