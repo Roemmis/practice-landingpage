@@ -89,9 +89,12 @@ background-color: grey;
 }
 
 .contentBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 350px;
-
     background-color: rgb(219, 131, 48);
     border: 2px solid black;
     text-align: center;
@@ -125,6 +128,7 @@ background-color: grey;
     justify-content: flex-start;
     align-items: flex-start;
     border-radius: 50%;
+    border: 2px solid black;
     overflow: hidden;
 }
 
